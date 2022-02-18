@@ -1,2 +1,2 @@
 # Python-Code
-<p>Dieses Repository ist nur für Python Code</p>
+<p>This repo is for Python code only</p>
