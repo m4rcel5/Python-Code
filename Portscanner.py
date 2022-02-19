@@ -9,7 +9,7 @@ import socket
 import sys
 from datetime import datetime as dt
 
-target = "scanme.nmap.org"
+target = "scanme.nmap.org" # enter the target domain here
 target = socket.gethostbyname(target)
 
 tstart = dt.now()
@@ -19,10 +19,10 @@ try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         res = sock.connect_ex((target, port))
         if res == 0:
-            print(f"Offene Verbindung in Port {port}")
+            print(f"Opened connection in {port}")
         sock.close()        
 except Exception:
-    print("Ein Fehler ist aufgetreten")
+    print("An error occurred")
     sys.exit()
 
 tend = dt.now()
