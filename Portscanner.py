@@ -1,5 +1,5 @@
 """
-    @author: Marcel Lizak
+    @author: m4rcel5
     19.02.2022
     scanning for open ports
 """
