@@ -1,7 +1,7 @@
 """
     author: m4rcel5
     19.02.2022
-    Time table
+    Time table for school or work
 """
 import os
 import time
