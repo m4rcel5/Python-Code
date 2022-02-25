@@ -1,7 +1,7 @@
 """
     author: m4rcel5
     18.02.2022
-    multiplication table
+    multiplication table    
 """
 
 for i in range(1, 11):
