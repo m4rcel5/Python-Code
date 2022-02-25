@@ -1,7 +1,7 @@
 """
-    @author: m4rcel5
+    author: m4rcel5
     19.02.2022
-    scanning for open ports
+    portscanner
 """
 
 
@@ -9,7 +9,7 @@ import socket
 import sys
 from datetime import datetime as dt
 
-target = "scanme.nmap.org" # enter the target domain here
+target = "scanme.nmap.org" # enter the target domain or ip adress here ('scanme.nmap.org' is only an example, because its allowed to use this domain for educational purposes)
 target = socket.gethostbyname(target)
 
 tstart = dt.now()
@@ -20,9 +20,9 @@ try:
         res = sock.connect_ex((target, port))
         if res == 0:
             print(f"Opened connection in {port}")
-        sock.close()        
+        sock.close()
 except Exception:
-    print("An error occurred")
+    print("An error occurred!")
     sys.exit()
 
 tend = dt.now()

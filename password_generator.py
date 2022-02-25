@@ -1,5 +1,5 @@
 """
-    @author: m4rcel5
+    author: m4rcel5
     19.02.2022
     password generator
 """
@@ -20,4 +20,4 @@ while length != "":
         time.sleep(2)
         length = input("Enter the length of your password (empty input stops the program): ")
     else:
-        print("The length must not be greater than 90 and must not be smaller than 8")
+        print("The length must not be greater than 90 and not smaller than 8!")
