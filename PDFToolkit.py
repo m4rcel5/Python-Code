@@ -4,6 +4,11 @@ import os
 import time
 import comtypes.client
 
+"""
+    @author: m4rcel5
+    15.09.2022
+    PDFToolkit
+"""
 
 # Hier werden die Metadaten eines PDF Dokuments ausgelesen
 # IN: path (str, Der Pfad zu einem PDF Dokument)
